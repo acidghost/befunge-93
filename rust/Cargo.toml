@@ -1,0 +1,12 @@
+[package]
+name = "befunge-93"
+version = "0.1.0"
+authors = ["Andrea Jemmett <andreajemmett@gmail.com>"]
+description = "Re-implementing Befunge-93 in Rust."
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0"
+structopt = "0.3"
+ansi_term = "0.12"
+rand = { version = "0.7", features = ["small_rng"] }
